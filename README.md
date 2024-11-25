@@ -47,3 +47,21 @@ Cada jogo pode conter as seguintes informações:
 
 - Crie listas personalizadas para organizar seus jogos.
 - Relacione jogos às listas e defina suas posições específicas dentro delas.
+
+## Como Executar?
+
+#### Clonar o repositório:
+
+```git clone https://github.com/seu-repositorio/game-list-manager.git```
+
+#### Configurar o ambiente:
+
+Certifique-se de ter Docker e PostgreSQL instalados.
+
+Configure o arquivo application.properties com as credenciais do banco de dados.
+
+#### Executar o projeto:
+
+Com o Spring Boot:
+
+```./mvnw spring-boot:run```
