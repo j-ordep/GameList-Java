@@ -13,21 +13,16 @@ Projeto *Game List Manager*, gerência listas de jogos. Aqui, você pode organiz
 - O relacionamento entre jogos e listas é gerenciado por uma tabela intermediária chamada Belonging, onde tive que criar uma classe BelongingPK que encapsula os dois IDs, atributos que juntos formam a chave primária da entidade Belonging:
 
   - gameId (o ID do jogo)
-
   - listId (o ID da lista)
 
 ## Tecnologias utilizadas
 
 - Java (Spring Boot)
-
+- JPA
 - Banco de dados PostgreSQL (Docker)
-
 - APIs RESTful para criar, consultar e atualizar jogos e listas
-
 - Processo de deploy com CI/CD
-
 - Postman
-
 - Arquitetura limpa com separação em camadas bem definidas:
   - Controller: Exposição das APIs REST.
   - Service: Implementação da lógica de negócios.
@@ -41,17 +36,11 @@ Projeto *Game List Manager*, gerência listas de jogos. Aqui, você pode organiz
 Cada jogo pode conter as seguintes informações:
 
 - Título
-
 - Gênero
-
 - Ano de lançamento
-
 - Plataforma(s)
-
 - Pontuação
-
 - Descrição detalhada
-
 - Imagem ilustrativa
 
 #### Listas de Jogos
