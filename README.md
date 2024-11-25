@@ -16,17 +16,17 @@ Projeto *Game List Manager*, gerência listas de jogos. Aqui, você pode organiz
 
   - listId (o ID da lista)
 
-- APIs RESTful para criar, consultar e atualizar jogos e listas.
-
 ## Tecnologias utilizadas
 
 - Java (Spring Boot)
 
+- Banco de dados PostgreSQL (Docker)
 
+- APIs RESTful para criar, consultar e atualizar jogos e listas
 
-- Banco de dados PostgreSQL (Docker).
+- Processo de deploy com CI/CD
 
-- Postman.
+- Postman
 
 - Arquitetura limpa com separação em camadas bem definidas:
   - Controller: Exposição das APIs REST.
@@ -36,6 +36,25 @@ Projeto *Game List Manager*, gerência listas de jogos. Aqui, você pode organiz
 
 ## Como funciona o projeto?
 
-Jogos: Cada jogo contém informações como título, gênero, plataformas, pontuação, imagens e descrições detalhadas.
+#### Jogos: 
 
-Listas de jogos: Você pode criar listas e adicionar jogos a elas, definindo a posição de cada Jogo dentro da lista
+Cada jogo pode conter as seguintes informações:
+
+- Título
+
+- Gênero
+
+- Ano de lançamento
+
+- Plataforma(s)
+
+- Pontuação
+
+- Descrição detalhada
+
+- Imagem ilustrativa
+
+#### Listas de Jogos
+
+- Crie listas personalizadas para organizar seus jogos.
+- Relacione jogos às listas e defina suas posições específicas dentro delas.
