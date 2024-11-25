@@ -21,7 +21,7 @@ Projeto *Game List Manager*, gerência listas de jogos. Aqui, você pode organiz
 - JPA
 - Banco de dados PostgreSQL (Docker)
 - APIs RESTful para criar, consultar e atualizar jogos e listas
-- Processo de deploy com CI/CD
+- CI/CD
 - Postman
 - Arquitetura limpa com separação em camadas bem definidas:
   - Controller: Exposição das APIs REST.
